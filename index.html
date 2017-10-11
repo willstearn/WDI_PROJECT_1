@@ -1,32 +1,54 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Whack-A-Lol!</title>
+<title>Whack-A-Lol</title>
   <link rel="stylesheet" href="./css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/app.js"></script>
 </head>
 <body>
-  <h1>Whack-A-Lol!</h1>
-  <h2 class="message">We're in it for the LOLS!</h2>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-  <button class="reset">Clear Board</button>
+      <div>
+
+      	<div class="game-score">
+      		<center>
+            <div class="header">Whack-A-Lol</div>
+            <br><br>
+            <button id="play" onclick="play()">Play</button>
+      			<button id="stop" onclick="stop()">Stop</button>
+          </center>
+
+      	</div>
+
+      	<center>
+      	<div class="game-view">
+      		  <div class="grid" id="g1"></div>
+      		  <div class="grid" id="g2"></div>
+            <div class="grid" id="g3"></div>
+            <div class="grid" id="g4"></div>
+            <div class="grid" id="g5"></div>
+            <div class="grid" id="g6"></div>
+            <div class="grid" id="g7"></div>
+            <div class="grid" id="g8"></div>
+            <div class="grid" id="g9"></div>
+      	</div>
+      </div>
+      </center>
+      <div>
+      	 <audio id="beavisbutthead"><source src="audio/beavisbutthead.mp3" type="audio/mpeg"></audio>
+      	 <audio id="janicefromfriends"><source src="audio/janicefromfriends.mp3" type="audio/mpeg"></audio>
+      	 <audio id="jimmycarr"><source src="audio/jimmycarr.mp3" type="audio/mpeg"></audio>
+      	 <audio id="laughingmanonbrexit"><source src="audio/laughingmanonbrexit.mp3" type="audio/mpeg"></audio>
+      	 <audio id="laughingpoliceman"><source src="audio/laughingpoliceman.mp3" type="audio/mpeg"></audio>
+      	 <audio id="nelson"><source src="audio/Nelson.mp3" type="audio/mpeg"></audio>
+      	 <audio id="petergriffin"><source src="audio/petergriffin.mp3" type="audio/mpeg"></audio>
+      	 <audio id="rickygervais"><source src="audio/rickygervais.mp3" type="audio/mpeg"></audio>
+      	 <audio id="sidjames"><source src="audio/sidjames.mp3" type="audio/mpeg"></audio>
+      </div>
+
 </body>
 </html>
-
-
-
 
   </body>
 </html>

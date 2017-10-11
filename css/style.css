@@ -1,56 +1,43 @@
 body {
-  background: black;
-  font-family: "Helvetica Neue", Helvetica, Arial, serif;
-  color: #00FF0D;
-  text-align: center;
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  background-color:#282828
 }
-
-ul {
-  margin: 0 auto;
-  border: 2px solid white;
-  padding: 0;
-  width: 300px;
-  height: 300px;
+.game-score {
+  width:100%;
+  height:150px;
 }
-
-li {
-  float: left;
-  width: 96px;
-  height: 96px;
-  font-size: 70px;
-  line-height: 96px;
-  text-align: center;
-  border: 2px solid white;
-  list-style-type: none;
+.game-view {
+  width:500px;
+  background-color:#474747;
+  height:425px;
 }
-
-li:hover{
-  cursor:pointer;
+.grid {width:164px;
+  height:140px;
+  border:1px solid #878787;
+  float:left;
 }
-
-.playerTurn {
-  text-align: center;
+.header {
+  font-size:30px;
+  font-family:sans-serif;
+  margin-top:40px;
+  color:#BDBDBD;
 }
-
-.X {
-  color: black;
-  background: #00FF0D;
+#play { width:180px;
+  height:50px;background-color:green;
+  font-size:25px;
+  font-family:sans-serif;
+  color:white;border:none;
+  border-radius:7px;
 }
-
-.O {
-  color: #00FF0D;
-  background: black;
-}
-
-.reset {
-  font-size: 20px;
-  background: black;
-  border: none;
-  color: white;
-  cursor: pointer;
-  margin: 20px;
-}
-
-.reset: hover{
-  background: #b8bdee;
+#stop { margin-left:40px;
+  background-color:red;
+  border:none;
+  border-radius:7px;
+  width:180px;
+  height:50px;font-size:25px;
+  font-family:sans-serif;
+  color:white;
 }
