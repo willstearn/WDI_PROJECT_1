@@ -24,7 +24,7 @@
 // function stop()
 // function gridClear()
 
-// list variables (chnage to let or const)
+// list variables (chnage to let or con)
 
 var score = 0;
 var start;
@@ -78,6 +78,6 @@ function play(){
   start=setInterval(function(){  // assign setInterval to start variable
     var randomImg=Math.floor(Math.random()*9); //get a random number b/w 0-9 in order to retrive random object from obj variable
     var randomGrid=Math.floor(Math.random()*9)+1;//get random number for grid to assign the image to randomgrid
-    document.getElementById('g'+randomGrid).innerHTML="<img src='images/"+obj[randomImg].img+"' class='img' id='"+randomImg+"'>";// concatenate grid to produce outcome of randomGrid then concatenate img src to produce img
+    document.getElementById('g'+randomGrid).innerHTML="<img src='images/"+obj[randomImg].img+"' class='img' id='"+randomImg+"'>";// concatenate grid to produce outcome of randomGrid then concatenate img src to produce image
   });
 }
