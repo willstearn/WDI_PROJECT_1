@@ -1,46 +1,93 @@
-body {
+body{
   width:100%;
   height:100%;
   padding:0;
   margin:0;
-  background-color:#282828
+  background-color:white
 }
-.game-score {
+.game-score{
   width:100%;
-  height:150px;
+  height:100px;
 }
-.game-view {
-  width:500px;
+.game-view{
+  width:498px;
   background-color:#474747;
   height:425px;
+  margin-top: 15px;
 }
-.grid {width:164px;
+.grid{
+  width:164px;
   height:140px;
   border:1px solid #878787;
   float:left;
 }
-.header {
-  font-size:30px;
-  font-family:sans-serif;
+.header{
+  font-size:50px;
+  font-family: 'Fascinate Inline', cursive;
   margin-top:40px;
-  color:#BDBDBD;
-<<<<<<< HEAD
+  text-align:center
 }
-#play { width:180px;
-  height:50px;background-color:green;
+.img{
+  width:100%;
+  height:100%
+}
+#play{
+  width:180px;
+  height:50px;
+  background-color:green;
   font-size:25px;
   font-family:sans-serif;
   color:white;border:none;
   border-radius:7px;
 }
-#stop { margin-left:40px;
-  background-color:red;
-  border:none;
-  border-radius:7px;
+#stop{
+  margin-left:40px;
+  background-color:red;border:
+  none;border-radius:7px;
   width:180px;
   height:50px;font-size:25px;
   font-family:sans-serif;
   color:white;
-=======
->>>>>>> 8439f452f673a97b4748e0511d26198548fc5bee
+}
+h2{
+  font-size:30px;
+  color:black;
+  font-family: 'Fascinate Inline', cursive;
+  float:left;
+  margin-top:-10px;
+}
+#timer{
+  font-size:20px;
+  color:black;
+  font-family: 'Fascinate Inline', cursive;
+  float:left;
+  margin-left:-100px;
+}
+#score{
+  font-size:30px;
+  color:black;
+  font-family: 'Fascinate Inline', cursive;
+  float:left;
+  padding-left: 5px;
+  text-align: justify;
+}
+.left{
+  width:30%;
+  float:left;
+  height:450px;
+}
+.center{
+  float:left;
+  width:40%;
+  height:450px;
+}
+.right{
+  float:left;
+  width:20%;
+  height:450px;
+}
+#controls{
+  text-align:center;
+  width:100%;
+  margin-top:10px;
 }
